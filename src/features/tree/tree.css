@@ -1,0 +1,40 @@
+.file {
+    display: flex;
+    align-items: start;
+    padding: 5px 10px;
+    cursor: pointer;
+    gap: 5px;
+
+}
+
+.folder {
+    display: flex;
+    align-items: start;
+    padding: 5px 5px;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+    width: 150px;
+}
+
+.menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+}
+
+.menu-item:hover {
+    background-color: #eee;
+}
