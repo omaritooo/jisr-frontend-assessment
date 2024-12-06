@@ -1,4 +1,4 @@
-import { Sidebar } from '@/components/common/Sidebar'
+import Sidebar from '@/components/common/Sidebar'
 import Files from './constants/files'
 import { TreeItem } from './features/tree/TreeItem'
 import { useContextMenu } from './utils/providers/ContextMenuProvider'
